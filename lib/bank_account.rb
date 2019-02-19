@@ -13,4 +13,8 @@ class BankAccount
     @balance += money
   end
 
+  def display_balance
+    puts @balance
+  end
+
 end
